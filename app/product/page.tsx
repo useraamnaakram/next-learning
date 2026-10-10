@@ -66,6 +66,8 @@ export default function Product() {
           <h1 className="text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl">Useful things, made well.</h1>
           <p className="mt-4 text-lg leading-8 text-slate-600">Thoughtful everyday goods with simple forms and room to become part of your routine.</p>
         </div>
+
+        
         <FetchProduct />
         
       </div>

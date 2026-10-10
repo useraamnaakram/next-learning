@@ -6,13 +6,14 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useState, FormEvent } from 'react';
 
-export default function NotFound() {
+export default function NotFound() { 
+
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleSearch = (e: FormEvent) => {
     e.preventDefault();
-    if (searchQuery.trim()) {
+    if (searchQuery.trim()) { 
       router.push(`/?search=${encodeURIComponent(searchQuery.trim())}`);
     }
   };
@@ -213,4 +214,4 @@ export default function NotFound() {
       </div>
     </main>
   );
-}
+}

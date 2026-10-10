@@ -58,6 +58,7 @@ function ParentComponent() {
       <h1>Parent Component</h1>
       <ChildComponent name="Usman" age={25} email="usman@example.com" /> 
       <ChildComponent name="Ali" age={30} email="ali@example.com" /> 
+      
       <ChildComponent name="Ali" age={30} email="ali@example.com" /> 
     </div>
   );
